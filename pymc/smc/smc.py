@@ -192,7 +192,7 @@ class SMC_KERNEL(ABC):
         return cast(Dict[str, np.ndarray], result)
 
     def _initialize_kernel(self):
-        """Create variables and logp function necessary to run SMC_kernel
+        """Create variables and logp function necessary to run SMC kernel
 
         This method should not be overwritten. If needed, use `setup_kernel`
         instead.
